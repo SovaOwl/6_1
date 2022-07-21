@@ -6,6 +6,8 @@ using namespace std;
 
 int Choice(int ch, int a, int b)
 {
+	setlocale(LC_ALL, "Rus");
+
 	if (ch == 1)
 	{
 		cout << a << " + " << b << " = " << addition(a, b) << endl;
@@ -24,15 +26,15 @@ int Choice(int ch, int a, int b)
 	}
 	else if (ch == 5)
 	{
-		cout << a << " в степени " << b << " = " << exponentiation(a, b) << endl;
+		cout << a << " РІ СЃС‚РµРїРµРЅРё " << b << " = " << exponentiation(a, b) << endl;
 	}
 	else if (ch == 6)
 	{
-		cout << "До свидания!" << endl;
+		cout << "Р”Рѕ СЃРІРёРґР°РЅРёСЏ!" << endl;
 	}
 	else
 	{
-		cout << "Неверная команда, попробуйте снова" << endl;
+		cout << "РќРµРІРµСЂРЅР°СЏ РєРѕРјР°РЅРґР°, РїРѕРїСЂРѕР±СѓР№С‚Рµ СЃРЅРѕРІР°" << endl;
 	}
 	return 0;
 }
