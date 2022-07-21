@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include"Choice.h"
 
 using namespace std;
@@ -8,7 +8,8 @@ int main()
 {
 	setlocale(LC_ALL, "Rus");
 
-	int a = -999, b = -999, choice = -99;
+	double a = -999, b = -999;
+	int choice = -99;
 
 	do
 	{
@@ -21,5 +22,6 @@ int main()
 
 	Choice(choice, a, b);
 
-	} while (choice != 6);
+	}
+	while (choice != 6);
 }
