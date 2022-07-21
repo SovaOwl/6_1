@@ -1,7 +1,7 @@
 #pragma once
 
-int addition(int a, int b);
-int subtraction(int a, int b);
-int multiplication(int a, int b);
-int division(int a, int b);
-int exponentiation(int a, int b);
+double addition(double a, double b);
+double subtraction(double a, double b);
+double multiplication(double a, double b);
+double division(double a, double b);
+double exponentiation(double a, double b);
